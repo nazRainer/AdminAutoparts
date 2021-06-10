@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T13:24:11.734Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="7OrTODdGWraYaHV5C-or" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T13:31:48.341Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="MqBrHWnnS170FTLneHYr" version="14.7.6" type="github">
   <diagram id="GAgBlBfcdN2AC5fXVtDO" name="Page-1">
-    <mxGraphModel dx="926" dy="425" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="658" dy="731" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -14,81 +14,52 @@
           <mxGeometry x="20" y="140" width="10" height="250" as="geometry" />
         </mxCell>
         <mxCell id="8WN9xw2JMmzS84YY4z1d-3" value=":Roles" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="580" y="80" width="40" height="410" as="geometry" />
+          <mxGeometry x="670" y="80" width="40" height="410" as="geometry" />
         </mxCell>
         <mxCell id="8WN9xw2JMmzS84YY4z1d-4" value=":adminCTRL" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
-          <mxGeometry x="430" y="80" width="40" height="410" as="geometry" />
+          <mxGeometry x="480" y="80" width="40" height="410" as="geometry" />
         </mxCell>
-        <mxCell id="8WN9xw2JMmzS84YY4z1d-13" value="7. submit new role information" style="endArrow=classic;html=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-310" y="260" as="sourcePoint" />
-            <mxPoint x="-130" y="260" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-330" y="260" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8WN9xw2JMmzS84YY4z1d-14" value="8. display confirm message" style="endArrow=none;html=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-320" y="281" as="sourcePoint" />
-            <mxPoint x="-130" y="281" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8WN9xw2JMmzS84YY4z1d-15" value="9. confirm changes" style="endArrow=classic;html=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-310" y="300" as="sourcePoint" />
-            <mxPoint x="-130" y="300" as="targetPoint" />
-            <Array as="points">
-              <mxPoint x="-330" y="300" />
-            </Array>
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8WN9xw2JMmzS84YY4z1d-21" value="15. display new role info" style="endArrow=none;html=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="-320" y="390" as="sourcePoint" />
-            <mxPoint x="-130" y="390" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="8WN9xw2JMmzS84YY4z1d-16" value="10. send new role info" style="endArrow=classic;html=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
+        <mxCell id="8WN9xw2JMmzS84YY4z1d-16" value="10. send updated role info" style="endArrow=classic;html=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4">
+          <mxGeometry x="0.28" width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-100" y="310" as="sourcePoint" />
             <mxPoint x="10" y="310" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="-120" y="310" />
+              <mxPoint x="-170" y="310" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8WN9xw2JMmzS84YY4z1d-20" value="14. send new role info" style="endArrow=none;html=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4">
+        <mxCell id="8WN9xw2JMmzS84YY4z1d-20" value="14. send updated role info" style="endArrow=none;html=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4" source="8WN9xw2JMmzS84YY4z1d-2">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="-120" y="380" as="sourcePoint" />
             <mxPoint x="20" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8WN9xw2JMmzS84YY4z1d-19" value="13. send new role info" style="endArrow=none;html=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4">
+        <mxCell id="8WN9xw2JMmzS84YY4z1d-19" value="13. send updated role info" style="endArrow=none;html=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4" target="8WN9xw2JMmzS84YY4z1d-3">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="30" y="370" as="sourcePoint" />
             <mxPoint x="170" y="370" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="8WN9xw2JMmzS84YY4z1d-17" value="11. send new role info" style="endArrow=classic;html=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4">
+        <mxCell id="8WN9xw2JMmzS84YY4z1d-17" value="11. send updated role info" style="endArrow=classic;html=1;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="40" y="320" as="sourcePoint" />
-            <mxPoint x="160" y="320" as="targetPoint" />
+            <mxPoint x="200" y="320" as="targetPoint" />
             <Array as="points">
               <mxPoint x="20" y="320" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="8WN9xw2JMmzS84YY4z1d-30" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="8WN9xw2JMmzS84YY4z1d-4">
-          <mxGeometry x="165" y="320" width="10" height="50" as="geometry" />
+          <mxGeometry x="205" y="320" width="10" height="50" as="geometry" />
         </mxCell>
         <mxCell id="8WN9xw2JMmzS84YY4z1d-18" value="12. set new role info" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="8WN9xw2JMmzS84YY4z1d-4">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="180" y="360" as="sourcePoint" />
-            <mxPoint x="180" y="330" as="targetPoint" />
+            <mxPoint x="220" y="360" as="sourcePoint" />
+            <mxPoint x="220" y="330" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="230" y="360" />
-              <mxPoint x="230" y="330" />
+              <mxPoint x="270" y="360" />
+              <mxPoint x="270" y="330" />
             </Array>
           </mxGeometry>
         </mxCell>
@@ -144,6 +115,36 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="195" y="400" as="sourcePoint" />
             <mxPoint x="110" y="320" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WN9xw2JMmzS84YY4z1d-13" value="7. submit update role information" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="340" as="sourcePoint" />
+            <mxPoint x="300" y="340" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WN9xw2JMmzS84YY4z1d-14" value="8. display confirm message" style="endArrow=none;html=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="361" as="sourcePoint" />
+            <mxPoint x="300" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WN9xw2JMmzS84YY4z1d-15" value="9. confirm changes" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="380" as="sourcePoint" />
+            <mxPoint x="300" y="380" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="100" y="380" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="8WN9xw2JMmzS84YY4z1d-21" value="15. display updated role info" style="endArrow=none;html=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="110" y="470" as="sourcePoint" />
+            <mxPoint x="300" y="470" as="targetPoint" />
           </mxGeometry>
         </mxCell>
       </root>
