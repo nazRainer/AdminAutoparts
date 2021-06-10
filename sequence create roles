@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T13:32:19.381Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="okPnQZvu89axpfg1Ajm2" version="14.7.6" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-10T13:33:36.823Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="mkhpKt6g5PCIzovVi_Pl" version="14.7.6" type="github">
   <diagram id="Sg3ixnQxJlrbj31B1V2t" name="Page-1">
-    <mxGraphModel dx="824" dy="860" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="483" dy="504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -82,7 +82,7 @@
         <mxCell id="ZQJ-wVkIX6wY0Gy-D8EY-35" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="ZQJ-wVkIX6wY0Gy-D8EY-26">
           <mxGeometry x="165" y="320" width="10" height="50" as="geometry" />
         </mxCell>
-        <mxCell id="ZQJ-wVkIX6wY0Gy-D8EY-36" value="12. set new role info" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="ZQJ-wVkIX6wY0Gy-D8EY-26">
+        <mxCell id="ZQJ-wVkIX6wY0Gy-D8EY-36" value="12. update role info" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;startArrow=classic;startFill=1;endArrow=none;endFill=0;" edge="1" parent="ZQJ-wVkIX6wY0Gy-D8EY-26">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="360" as="sourcePoint" />
             <mxPoint x="180" y="330" as="targetPoint" />
