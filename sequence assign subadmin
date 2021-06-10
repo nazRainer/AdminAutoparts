@@ -1,1 +1,49 @@
-<mxfile host="app.diagrams.net" modified="2021-06-10T13:13:23.951Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" version="14.7.6" etag="ThgOHkOd4u-wBeWCpUFy" type="github"><diagram id="g1Q6i_zb21Ef75ATg44R">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-10T13:51:46.624Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.77 Safari/537.36" etag="OcZraEnDiH074aeRouhz" version="14.7.6" type="github">
+  <diagram id="g1Q6i_zb21Ef75ATg44R" name="Page-1">
+    <mxGraphModel dx="1146" dy="512" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="85tZtgkj4BcnIyn7VKyq-1" value=":masteradmin" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="20" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="85tZtgkj4BcnIyn7VKyq-2" value=":adminUI" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="420" y="50" width="50" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="85tZtgkj4BcnIyn7VKyq-5" value="1. click assign admin" style="endArrow=classic;html=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="230" y="130" as="sourcePoint" />
+            <mxPoint x="440" y="130" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="210" y="130" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="85tZtgkj4BcnIyn7VKyq-10" value="2. display list of admin&amp;nbsp;" style="endArrow=none;html=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="150" as="sourcePoint" />
+            <mxPoint x="440" y="150" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="85tZtgkj4BcnIyn7VKyq-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="205" y="120" width="10" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="85tZtgkj4BcnIyn7VKyq-12" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="440" y="130" width="10" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="85tZtgkj4BcnIyn7VKyq-16" value="3. select/unselect subadmin and submit" style="endArrow=classic;html=1;entryX=-0.217;entryY=0.642;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="85tZtgkj4BcnIyn7VKyq-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="215" y="170" as="sourcePoint" />
+            <mxPoint x="400" y="170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="85tZtgkj4BcnIyn7VKyq-22" value="2. display selected admin&amp;nbsp;" style="endArrow=none;html=1;endFill=0;startArrow=classic;startFill=1;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="189.9999999999999" as="sourcePoint" />
+            <mxPoint x="440" y="189.9999999999999" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
