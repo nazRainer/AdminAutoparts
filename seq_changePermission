@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T13:51:45.217Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="bSakOUvstoUug792dAXS" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T13:54:03.074Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="Lv1olrEvt7zik3PFtbrD" version="14.7.10" type="github">
   <diagram id="XEj-Xw_P8OZBx0zbFQqB" name="Page-1">
     <mxGraphModel dx="1705" dy="713" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -7,13 +7,13 @@
         <mxCell id="AUB6ZaYG4WNhOHv-HcPv-3" value=":SystemAdmin" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="180" y="40" width="20" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="AUB6ZaYG4WNhOHv-HcPv-4" value=":ManageItemUI" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="AUB6ZaYG4WNhOHv-HcPv-4" value=":PermissionUI" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="40" width="50" height="540" as="geometry" />
         </mxCell>
         <mxCell id="AUB6ZaYG4WNhOHv-HcPv-5" value=":database" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="40" width="40" height="540" as="geometry" />
         </mxCell>
-        <mxCell id="AUB6ZaYG4WNhOHv-HcPv-6" value=":ManageItemCTRL" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="AUB6ZaYG4WNhOHv-HcPv-6" value=":PermissionCTRL" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="540" y="40" width="40" height="540" as="geometry" />
         </mxCell>
         <mxCell id="AUB6ZaYG4WNhOHv-HcPv-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
