@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T07:12:17.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="4_dRuQpJQ-kKJ4RGpjtT" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T07:16:06.346Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="hQ1MnbQBzB7oszmPnS_O" version="14.7.10" type="github">
   <diagram id="vnZ28A1AJVqsY-83_dQ9" name="Page-1">
-    <mxGraphModel dx="1038" dy="585" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="865" dy="488" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -13,13 +13,13 @@
         <mxCell id="llo65JhXgtRfemqZcdUr-2" value="&amp;lt;&amp;lt;include&amp;gt;&amp;gt;" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;" parent="1" source="72PoYYEwDmQNHp5UPr-h-1" target="llo65JhXgtRfemqZcdUr-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="72PoYYEwDmQNHp5UPr-h-1" value="Set Permission" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="72PoYYEwDmQNHp5UPr-h-1" value="Admin_UC3&lt;br&gt;View Privilege" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="180" y="370" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="72PoYYEwDmQNHp5UPr-h-2" value="Manage&lt;br&gt;Mark-Up Price" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="72PoYYEwDmQNHp5UPr-h-2" value="Admin_UC8&lt;br&gt;Manage&lt;br&gt;Mark-Up Price" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="500" y="340" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="72PoYYEwDmQNHp5UPr-h-3" value="Log In" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="72PoYYEwDmQNHp5UPr-h-3" value="Admin_UC1&lt;br&gt;Log In" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="160" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="72PoYYEwDmQNHp5UPr-h-16" style="edgeStyle=none;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;endArrow=none;endFill=0;" parent="1" source="72PoYYEwDmQNHp5UPr-h-7" target="72PoYYEwDmQNHp5UPr-h-3" edge="1">
@@ -49,22 +49,22 @@
         <mxCell id="72PoYYEwDmQNHp5UPr-h-9" value="Business&lt;br&gt;Admin" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" parent="1" vertex="1">
           <mxGeometry x="670" y="170" width="30" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="72PoYYEwDmQNHp5UPr-h-10" value="Generate Reports" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="72PoYYEwDmQNHp5UPr-h-10" value="Admin_UC6&lt;br&gt;Generate Reports" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="365" y="210" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="72PoYYEwDmQNHp5UPr-h-11" value="Manage Abandoned&lt;br&gt;Check-outs" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="72PoYYEwDmQNHp5UPr-h-11" value="Admin_UC7&lt;br&gt;Manage Abandoned&lt;br&gt;Check-outs" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="250" width="135" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="72PoYYEwDmQNHp5UPr-h-12" value="Change Dealer&lt;br&gt;Permission" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="360" y="310" width="120" height="80" as="geometry" />
+        <mxCell id="72PoYYEwDmQNHp5UPr-h-12" value="Admin_UC4&lt;br&gt;Change Dealer&lt;br&gt;Permission" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="360" y="300" width="120" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="72PoYYEwDmQNHp5UPr-h-13" value="Manage item" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="72PoYYEwDmQNHp5UPr-h-13" value="Admin_UC2&lt;br&gt;Manage item" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="250" y="250" width="120" height="80" as="geometry" />
         </mxCell>
         <mxCell id="72PoYYEwDmQNHp5UPr-h-23" value="&amp;lt;&amp;lt;subsystem&amp;gt;&amp;gt; Administration" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="330" y="140" width="190" height="10" as="geometry" />
+          <mxGeometry x="310" y="140" width="190" height="10" as="geometry" />
         </mxCell>
-        <mxCell id="llo65JhXgtRfemqZcdUr-1" value="Change Supplier&lt;br&gt;Permission" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+        <mxCell id="llo65JhXgtRfemqZcdUr-1" value="Admin_UC5&lt;br&gt;Change Supplier&lt;br&gt;Permission" style="ellipse;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="390" y="390" width="120" height="80" as="geometry" />
         </mxCell>
       </root>
