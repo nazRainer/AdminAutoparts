@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-06-17T12:37:15.056Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="8iDuvfRZSk5d7sQ1yV_H" version="14.7.10" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-17T13:28:56.455Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.106 Safari/537.36" etag="QkDYdMedStNaV1RwYq38" version="14.7.10" type="github">
   <diagram id="-QYgI6_KDlDVQWFJTmOp" name="Page-1">
-    <mxGraphModel dx="1449" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1705" dy="787" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -40,8 +40,8 @@
         </mxCell>
         <mxCell id="f1ba9W7fGDbeWkYQfTH0-10" value="8. verified" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="720" y="370" as="sourcePoint" />
-            <mxPoint x="550" y="370" as="targetPoint" />
+            <mxPoint x="720" y="380" as="sourcePoint" />
+            <mxPoint x="550" y="380" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="f1ba9W7fGDbeWkYQfTH0-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
@@ -173,15 +173,17 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="f1ba9W7fGDbeWkYQfTH0-32" value="7. update password" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="f1ba9W7fGDbeWkYQfTH0-32" value="7. update new&lt;br&gt;username/password" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry x="0.006" relative="1" as="geometry">
             <mxPoint x="735" y="340" as="sourcePoint" />
-            <mxPoint x="735" y="359" as="targetPoint" />
+            <mxPoint x="735" y="370" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="799" y="340" />
-              <mxPoint x="799" y="359" />
-              <mxPoint x="735" y="359" />
+              <mxPoint x="735" y="330" />
+              <mxPoint x="799" y="330" />
+              <mxPoint x="799" y="370" />
+              <mxPoint x="735" y="370" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
