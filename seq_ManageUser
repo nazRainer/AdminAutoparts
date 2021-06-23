@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-06-23T16:14:50.715Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="oyLcewZYG7t-cROOs3R6" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-23T16:19:05.355Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="UnzDGPGJa4LnJ_qRt_Vk" version="14.8.0" type="github">
   <diagram id="_JN8jNw8x1bNCKZJTdXE" name="Page-1">
-    <mxGraphModel dx="1209" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+    <mxGraphModel dx="1209" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="qjD86F_omqE6Q-vqCaki-1" value="1. click manage user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-1" value="1. click Dealer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="120" as="sourcePoint" />
             <mxPoint x="370" y="120" as="targetPoint" />
@@ -53,7 +53,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjD86F_omqE6Q-vqCaki-12" value="3. search user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-12" value="3. enter dealer id or username" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="200" y="160" as="sourcePoint" />
             <mxPoint x="370" y="160" as="targetPoint" />
@@ -62,7 +62,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjD86F_omqE6Q-vqCaki-13" value="4. request data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-13" value="4. request dealer id or username" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="180" as="sourcePoint" />
             <mxPoint x="558.8899999999999" y="180" as="targetPoint" />
@@ -71,14 +71,16 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjD86F_omqE6Q-vqCaki-14" value="7. get data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
-          <mxGeometry relative="1" as="geometry">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-14" value="7. get list&lt;br&gt;of dealer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+          <mxGeometry x="0.1641" relative="1" as="geometry">
             <mxPoint x="755" y="220.5" as="sourcePoint" />
             <mxPoint x="755" y="239.5" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="799" y="220.5" />
-              <mxPoint x="799" y="239.5" />
+              <mxPoint x="755" y="210" />
+              <mxPoint x="799" y="210" />
+              <mxPoint x="799" y="240" />
             </Array>
+            <mxPoint as="offset" />
           </mxGeometry>
         </mxCell>
         <mxCell id="qjD86F_omqE6Q-vqCaki-16" value="8. send data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" edge="1">
@@ -87,16 +89,17 @@
             <mxPoint x="570" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjD86F_omqE6Q-vqCaki-17" value="5. request data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-17" value="5. request dealer id or username" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.067;entryY=0.005;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1" target="qjD86F_omqE6Q-vqCaki-10">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="565" y="200.01" as="sourcePoint" />
             <mxPoint x="735" y="200.01" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="666.61" y="200.41" />
+              <mxPoint x="667" y="200" />
+              <mxPoint x="667" y="202" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjD86F_omqE6Q-vqCaki-19" value="11. select user" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-19" value="11. select dealer" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="195" y="410.00000000000006" as="sourcePoint" />
             <mxPoint x="365" y="410.00000000000006" as="targetPoint" />
@@ -112,7 +115,7 @@
             <mxPoint x="384.9999999999998" y="350.59000000000003" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjD86F_omqE6Q-vqCaki-27" value="4. request data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-27" value="4. request dealer id, username" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="380" y="430.05999999999995" as="sourcePoint" />
             <mxPoint x="558.8899999999999" y="430.05999999999995" as="targetPoint" />
@@ -121,23 +124,25 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjD86F_omqE6Q-vqCaki-28" value="7. get data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-28" value="7. get dealer id,&lt;br&gt;username" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="754.9999999999998" y="459.99999999999994" as="sourcePoint" />
-            <mxPoint x="754.9999999999998" y="478.99999999999994" as="targetPoint" />
+            <mxPoint x="755" y="490" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="799" y="459.99999999999994" />
-              <mxPoint x="799" y="478.99999999999994" />
+              <mxPoint x="755" y="450" />
+              <mxPoint x="799" y="450" />
+              <mxPoint x="799" y="490" />
+              <mxPoint x="755" y="490" />
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjD86F_omqE6Q-vqCaki-29" value="8. send data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" edge="1">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-29" value="8. send dealer id, username" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="739.9999999999998" y="490.00000000000017" as="sourcePoint" />
             <mxPoint x="569.9999999999998" y="490.00000000000017" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjD86F_omqE6Q-vqCaki-30" value="5. request data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-30" value="5. request dealer id, username" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="564.9999999999998" y="450.06999999999994" as="sourcePoint" />
             <mxPoint x="734.9999999999998" y="450.06999999999994" as="targetPoint" />
@@ -146,13 +151,13 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjD86F_omqE6Q-vqCaki-31" value="9. send data" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" edge="1">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-31" value="9. send dealer id, username" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="554.9999999999998" y="510" as="sourcePoint" />
             <mxPoint x="384.9999999999998" y="510" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="qjD86F_omqE6Q-vqCaki-32" value="10. display user info" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" edge="1">
+        <mxCell id="qjD86F_omqE6Q-vqCaki-32" value="10. display dealer id, username" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" parent="1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="370" y="530" as="sourcePoint" />
             <mxPoint x="200" y="530" as="targetPoint" />
