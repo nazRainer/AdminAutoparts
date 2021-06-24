@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T11:47:05.088Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="p05rVAb-MjvjkJKwN3ll" version="14.8.0" type="github">
+<mxfile host="app.diagrams.net" modified="2021-06-24T11:48:01.424Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="oIImc3-Zwb7f0RL1QOiD" version="14.8.0" type="github">
   <diagram id="St0AQTq48MvtuwgjBheM" name="Page-1">
     <mxGraphModel dx="1209" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
@@ -23,7 +23,7 @@
         <mxCell id="c9v_CTAlc1rD4HHWOFQJ-5" value=":viewSupplierUI" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="350" y="40" width="50" height="520" as="geometry" />
         </mxCell>
-        <mxCell id="c9v_CTAlc1rD4HHWOFQJ-6" value=":database" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+        <mxCell id="c9v_CTAlc1rD4HHWOFQJ-6" value=":Supplier" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
           <mxGeometry x="730" y="40" width="40" height="520" as="geometry" />
         </mxCell>
         <mxCell id="c9v_CTAlc1rD4HHWOFQJ-7" value=":viewSupplierCTRL" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
