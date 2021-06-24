@@ -1,1 +1,239 @@
-<mxfile host="app.diagrams.net" modified="2021-06-24T11:52:24.053Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" version="14.8.0" etag="i8OLljCwsjL_b9RFHbvH" type="github"><diagram id="8wcj7gfSQ7HGY_wRVaSN">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-06-24T12:13:37.828Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.114 Safari/537.36" etag="Fk3dpLcF_Vhg5-G_OuT-" version="14.8.0" type="github">
+  <diagram id="8wcj7gfSQ7HGY_wRVaSN" name="Page-1">
+    <mxGraphModel dx="1209" dy="606" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="LaoCFb5jtakGpv4wesqH-50" value="if" style="shape=umlFrame;whiteSpace=wrap;html=1;width=40;height=30;" vertex="1" parent="1">
+          <mxGeometry x="90" y="420" width="300" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-41" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="280" width="750" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-2" value="1. click Add Supplier" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="120" as="sourcePoint" />
+            <mxPoint x="370" y="120" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="120" />
+              <mxPoint x="260" y="120" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-3" value=":SystemAdmin" style="shape=umlLifeline;participant=umlActor;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="180" y="40" width="20" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-4" value=":addSupplierUI" style="shape=umlLifeline;participant=umlBoundary;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="350" y="40" width="50" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-5" value=":Supplier" style="shape=umlLifeline;participant=umlEntity;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="730" y="40" width="40" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-6" value=":addSupplierCTRL" style="shape=umlLifeline;participant=umlControl;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;collapsible=0;recursiveResize=0;verticalAlign=top;spacingTop=36;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="540" y="40" width="40" height="620" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-7" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="185" y="120" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-8" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="370" y="120" width="10" height="520" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-9" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="555" y="230" width="10" height="370" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-10" value="21. display&amp;nbsp; supplierinfo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="640.0000000000001" as="sourcePoint" />
+            <mxPoint x="195" y="640.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-11" value="" style="html=1;points=[];perimeter=orthogonalPerimeter;" vertex="1" parent="1">
+          <mxGeometry x="745" y="240" width="10" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-12" value="2. display add supplier form" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="140" as="targetPoint" />
+            <mxPoint x="366.9999999999998" y="140" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="367" y="140" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-13" value="3. enter supplier_info&amp;nbsp;" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="179" as="sourcePoint" />
+            <mxPoint x="370" y="179" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="301.61" y="179.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-14" value="5. findsupplierID()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="380" y="230" as="sourcePoint" />
+            <mxPoint x="550" y="230" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="490.5" y="230.39999999999998" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-16" value="18. return supplierinfo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="740" y="590" as="sourcePoint" />
+            <mxPoint x="570" y="590" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-19" value="19. return&amp;nbsp; supplierinfo" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="554.9999999999998" y="600.0000000000001" as="sourcePoint" />
+            <mxPoint x="384.9999999999998" y="600.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-28" value="4. display error message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="369.9999999999998" y="199" as="sourcePoint" />
+            <mxPoint x="199.99999999999977" y="199" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-30" value="if phone_num&#xa;or postcode not int" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="90" y="170" width="90" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-33" value="16. setsupplier_info()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="530.5" as="sourcePoint" />
+            <mxPoint x="743.8900000000003" y="530.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="675.5" y="530.9" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-34" value="17. setsupplier_info()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry x="0.0725" y="21" relative="1" as="geometry">
+            <mxPoint x="754" y="540.5" as="sourcePoint" />
+            <mxPoint x="753.89" y="580.5" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="753.89" y="540.5" />
+              <mxPoint x="797.89" y="540.5" />
+              <mxPoint x="797.89" y="580.5" />
+              <mxPoint x="753.89" y="580.5" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-35" value="8. return error message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="300" as="sourcePoint" />
+            <mxPoint x="570" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-36" value="13. display confirmation&lt;br&gt;message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="390" as="sourcePoint" />
+            <mxPoint x="200" y="390" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-37" value="14. select cancel" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="195" y="440" as="sourcePoint" />
+            <mxPoint x="365" y="440" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="255" y="440" />
+              <mxPoint x="255" y="440" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-38" value="15. setsupplier_info()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="376.11" y="520" as="sourcePoint" />
+            <mxPoint x="555.0000000000003" y="520" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="486.61" y="520.4" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-39" value="6. findsupplierID()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.161;entryY=0.049;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="565" y="240" as="sourcePoint" />
+            <mxPoint x="743.8900000000003" y="240" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="675.5" y="240.39999999999998" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-40" value="7. findsupplierID()" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry y="21" relative="1" as="geometry">
+            <mxPoint x="755" y="250" as="sourcePoint" />
+            <mxPoint x="755" y="270" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="799" y="250" />
+              <mxPoint x="799" y="270" />
+              <mxPoint x="755" y="270" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-42" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="341" width="750" height="7.59" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-43" value="if supplierID exist" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="60" y="311" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-44" value="if supplierID not exist" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="55" y="361" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-45" value="9. return error message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="311" as="sourcePoint" />
+            <mxPoint x="380" y="311" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-46" value="10. display error message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="325.5" as="sourcePoint" />
+            <mxPoint x="195" y="325.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-1" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="30" y="160" width="360" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-47" value="11. request confirmation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="745" y="361" as="sourcePoint" />
+            <mxPoint x="570" y="361" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-48" value="12. request confirmation" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="555" y="375.5" as="sourcePoint" />
+            <mxPoint x="380" y="375.5" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-51" value="cancel" style="text;align=center;fontStyle=0;verticalAlign=middle;spacingLeft=3;spacingRight=3;strokeColor=none;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="125" y="420" width="55" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-52" value="13. display cancellation&lt;br&gt;message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="370" y="470" as="sourcePoint" />
+            <mxPoint x="200" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-53" value="14. select confirm" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="200" y="510" as="sourcePoint" />
+            <mxPoint x="370" y="510" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="260" y="510" />
+              <mxPoint x="260" y="510" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="LaoCFb5jtakGpv4wesqH-54" value="20. display&amp;nbsp; successful&lt;br&gt;message" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;" edge="1" parent="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="365" y="620.0000000000001" as="sourcePoint" />
+            <mxPoint x="195" y="620.0000000000001" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
