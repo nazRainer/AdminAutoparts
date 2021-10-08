@@ -1,0 +1,58 @@
+.column {
+    float: left;
+    width: 250px;
+    padding: 20px;
+    margin: 10px;
+    height: 150px;
+    border-radius: 20px;
+}
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+p.element{
+    color: rgb(100, 100, 100);
+    font-size: 20px;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+.accordion {
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    font-family: Helvetica;
+    padding: 18px;
+    border: none;
+    text-align: left;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+    width: 90%;
+}
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+.active:after {
+    content: "\2212";
+}
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+h2{
+    color: rgb(75, 75, 75);
+    font-size: 30px;
+    font-family: Helvetica;
+    font-weight:bold;
+}

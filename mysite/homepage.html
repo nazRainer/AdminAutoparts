@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sparke Homepage</title>
+        <link rel="stylesheet" href="main_template.css">
+        <link rel="stylesheet" href="homepage.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="icon" href="sparke.png" type="image/icon type">
+    </head>
+    <body>
+        <div id="nav">
+            <ul>
+                <li><b class="menu">MENU</a></li>
+                <li><a class="active" href="homepage.html"><i class="	fa fa-home"></i>&ensp; Home</a></li>
+                <li><a href="manage_suppliers.html"><i class="fa fa-address-card"></i>&ensp; Supplier</a></li>
+                <li><a href="manage_dealers.html"><i class="fa fa-address-card-o"></i>&ensp; Dealer</a></li>
+                <li><a href="markup_price.html"><i class="fa fa-dollar"></i>&ensp; Mark-Up Price</a></li>
+                <li><a href="data_analysis.html"><i class="fa fa-line-chart"></i>&ensp; Analysis</a></li>
+                <li><a href="order_status.html"><i class="fa fa-list-alt"></i>&ensp; Order</a></li>
+            </ul>
+        </div>
+        
+        <div id="main" class="main">
+            
+            <a href="login.html" class="logoutBtn">Logout <i class="fa fa-sign-out"></i></a>
+
+            <a class="title">
+                <span><img src="sparke.png" alt="sparke_logo"></span>Admin Dashboard
+            </a>
+
+            <h1>Welcome to Sparke Autoparts Admin Dashboard</h1>
+                
+            <div class="row">
+                <a style="display:block" href="manage_suppliers.html">
+                    <div class="column" style="background-color:#edfff0;">
+                        <p class="element">Suppliers<br>Management</p>
+                    </div>
+                </a>
+                <a style="display:block" href="manage_dealers.html">
+                    <div class="column" style="background-color:#f5f2ff;">
+                        <p class="element">Dealers<br>Management</p>
+                    </div>
+                <a style="display:block" href="markup_price.html">
+                    <div class="column" style="background-color:#fff3ec;">
+                        <p class="element">Mark-Up Price<br>Update</p>
+                    </div>
+                </a>
+                <a style="display:block" href="data_analysis.html">
+                    <div class="column" style="background-color:#ecfbff;">
+                        <p class="element">Data<br>Analysis</p>
+                    </div>
+                </a>
+                <a style="display:block" href="order_status.html">
+                    <div class="column" style="background-color:#ffecec;">
+                        <p class="element">Order<br>Status</p>
+                    </div>
+                </a>
+            </div>
+
+            <h2>WHAT CAN YOU DO?</h2>
+                <p>Here is the list of functionalities that you can access via <b>Admin Dashboard</b></p>
+            <button class="accordion">Suppliers Management</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Dealers Management</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Mark-Up Price Update</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Data Analysis</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <button class="accordion">Order Status</button>
+            <div class="panel">
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+            </div>
+
+            <script>
+            var acc = document.getElementsByClassName("accordion");
+            var i;
+
+            for (i = 0; i < acc.length; i++) {
+                acc[i].addEventListener("click", function() {
+                    this.classList.toggle("active");
+                    var panel = this.nextElementSibling;
+                    if (panel.style.maxHeight) {
+                        panel.style.maxHeight = null;
+                    } else {
+                        panel.style.maxHeight = panel.scrollHeight + "px";
+                    } 
+                });
+            }
+            </script>
+
+        </div>
+    </body>
+</html>
